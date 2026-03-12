@@ -1,0 +1,7 @@
+Operational Decision Questions
+
+1. Which deliveries require immediate operational attention?
+2. Which delivery partners are consistently underperforming?
+3. Which regions show higher delivery delay risk?
+4. How do weather conditions affect delivery performance?
+5. What actions should operations teams take for high-risk deliveries?

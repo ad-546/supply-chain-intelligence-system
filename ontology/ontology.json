@@ -1,0 +1,35 @@
+{
+  "entities": {
+    "Delivery": [
+      "delivery_id",
+      "delivery_partner",
+      "package_type",
+      "vehicle_type",
+      "delivery_mode",
+      "region",
+      "weather_condition",
+      "distance_km",
+      "package_weight_kg",
+      "delivery_time_hours",
+      "expected_time_hours",
+      "delay_hours",
+      "delay_severity",
+      "risk_score",
+      "delivery_status",
+      "delivery_rating",
+      "delivery_cost"
+    ],
+    "Partner": ["delivery_partner"],
+    "Region": ["region"],
+    "Vehicle": ["vehicle_type"],
+    "Weather": ["weather_condition"],
+    "DelayEvent": ["delivery_id", "delay_hours", "delay_severity"]
+  },
+  "relationships": [
+    ["Delivery", "handled_by", "Partner"],
+    ["Delivery", "occurs_in", "Region"],
+    ["Delivery", "uses", "Vehicle"],
+    ["Delivery", "affected_by", "Weather"],
+    ["Delivery", "has_event", "DelayEvent"]
+  ]
+}

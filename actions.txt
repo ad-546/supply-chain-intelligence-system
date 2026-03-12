@@ -1,0 +1,7 @@
+Operational Actions
+
+• Escalate delivery to operations manager
+• Notify delivery partner
+• Assign alternate delivery partner
+• Add additional delivery buffer time
+• Monitor delivery
